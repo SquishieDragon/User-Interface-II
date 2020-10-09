@@ -80,6 +80,13 @@ button{
 a{
     text-decoration: none;
     color: rgb(140, 39, 168);
+    font-family: Chalkduster, fantasy;
+    text-shadow: gray;
+}
+
+button:hover{
+    background-color:  rgb(107, 219, 107);
+    transition: 0.5s;
 }
 
 .paint{
