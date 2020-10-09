@@ -55,7 +55,8 @@ table {
     position: relative;
     text-align: center;
     color: white;
-    border: solid lime;
+    /*border: solid lime;*/
+    margin-bottom: 2%;
 }
 
 .nav{
@@ -64,7 +65,7 @@ table {
     position: absolute;
     bottom:500px;
     right:500px;
-    border: solid orangered;   
+    /* border: solid orangered; */
 }
 
 button{
@@ -76,6 +77,11 @@ button{
     border: none;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(140, 39, 168);
+}
+
 .paint{
     width: 100%;
 }
@@ -85,4 +91,12 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.footer{
+    background-color: rgb(107, 219, 107);
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
