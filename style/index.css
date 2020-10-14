@@ -107,3 +107,9 @@ button:hover{
     left: 0;
     bottom: 0;
 }
+
+@media screen and (max-width: 800px 500px) {
+    body {
+        background-color: white;
+    }
+}
