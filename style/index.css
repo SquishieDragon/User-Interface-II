@@ -49,32 +49,46 @@ table {
 }
 
 
+body{
+    width: 100%;
+}
 
+.background{ 
+    background-image: url("https://images.unsplash.com/photo-1559534838-69363706332f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    min-height: 380;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header1{
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
 
 .container {
     position: relative;
     text-align: center;
     color: white;
-    /*border: solid lime;*/
+    border: solid lime;
     margin-bottom: 2%;
 }
 
 .nav{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom:500px;
-    right:500px;
-    /* border: solid orangered; */
+    overflow: hidden;
+    background-color: #333;
+    border: solid orangered;
 }
 
 button{
-    margin: 5% 5%;
-    padding: 5%;
-    display: inline-block;
-    border-radius: 17%;
-    font-size: 1.5rem;
-    border: none;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 a{
@@ -85,7 +99,8 @@ a{
 }
 
 button:hover{
-    background-color:  rgb(107, 219, 107);
+    background-color:  #ddd;
+    color: bl;
     transition: 0.5s;
 }
 
@@ -108,8 +123,9 @@ button:hover{
     bottom: 0;
 }
 
-@media screen and (max-width: 800px 500px) {
+@media screen and (max-width: 800px) {
     body {
-        background-color: white;
+        background-color: ;
+        color: red;
     }
 }
