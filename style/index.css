@@ -53,7 +53,8 @@ table {
 
 .intro{
 	position: relative;
-  	text-align: center;
+	text-align: center;
+	
 }
 
 .blur{
@@ -64,6 +65,7 @@ table {
 	transform: translate(-50%, -50%);
 	color: white;
 	filter: blur(8px);
+	font-family: 'Quicksand', sans-serif;
 }
 
 h1{
@@ -73,6 +75,7 @@ h1{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
+	font-family: 'Quicksand', sans-serif;
 }
 
 h1:hover{
@@ -118,3 +121,30 @@ nav button{
 	
 }
 
+.summery{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.lowerPics{
+	max-width: 80%;
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	/* border: solid;
+	border-color: red; */
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}
+
+.lowerPics img{
+	max-height: auto;
+	max-width: 40%;
+	object-fit: cover;
+	vertical-align: bottom;
+	padding: 2%;
+}
